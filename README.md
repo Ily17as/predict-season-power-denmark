@@ -1,8 +1,8 @@
-# 🌱 Predicting Seasons from Power Consumption in Denmark
+# Predicting Seasons from Power Consumption in Denmark
 
 This project explores how deep learning models can classify seasons of the year (winter, spring, summer, autumn) based on daily power consumption and renewable energy production in Denmark.
 
-## 📊 Dataset
+## Dataset
 
 We use a subset of the [Open Power System Data](https://data.open-power-system-data.org/time_series/2020-10-06) dataset, focusing on three features:
 
@@ -12,7 +12,7 @@ We use a subset of the [Open Power System Data](https://data.open-power-system-d
 
 The data is aggregated to daily records with 24 hourly values per feature.
 
-## 🧠 Models
+## Models
 
 We implemented and evaluated three models using PyTorch:
 
@@ -53,6 +53,6 @@ The 1D CNN outperformed other models due to its ability to capture temporal depe
 - Experiment with hybrid CNN + LSTM models
 - Try larger datasets for better generalization
 
-## 🧑‍💻 Author
+## Author
 
 Ilyas Galiev — [il.galiev@innopolis.university](mailto:il.galiev@innopolis.university)
